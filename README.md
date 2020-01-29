@@ -51,6 +51,9 @@ Her yüklenen resim için cropper aynı isimde inputlar oluşturur. Bu inputlar�
 ### `name="cropper_image[]"`
 Hidden tipinde bir inputtur. Kırpılan resmin base64 kodlarını barındırır. Birden fazla resim olması durumunda array formatında veri döndürür.  -- Hidden nesnedir, sayfada kullanıcıya gösterilmez. --
 
-### `name="cropper_image_title[]"`
-Text tipinde bir inputtur. Eklenen resim için başlık bilgisi barındırır. Birden fazla resim olması durumunda array formatında veri döndürür. 
+### `name="cropper_input_1[]"`
+Text tipinde bir inputtur. Eklenen resim için herhangi bir bilgi barındırır. Birden fazla resim olması durumunda array formatında veri döndürür. ( Bu özellik 1...6 arasındadır. - max: cropper_input_6)
+
+### `name="cropper_input_1_placeholder[]"`
+Text tipinde bir inputtur. Eklenen resim için herhangi bir bilgi barındıran inputun placeholder bilgisini ayarlar. ( Bu özellik 1...6 arasındadır. - max: cropper_input_6_placeholde)
 

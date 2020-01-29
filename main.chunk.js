@@ -295,14 +295,64 @@ class MyCrop extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         lineNumber: 157
       },
       __self: this
-    })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    })), document.getElementById('cropper_input_1').value && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
       type: "text",
-      name: "cropper_image_title[]",
-      placeholder: document.getElementById('placeholder_text').value,
-      class: "cropper_image_title",
+      name: "cropper_input_1[]",
+      class: "cropper_input",
+      placeholder: document.getElementById('cropper_input_1_placeholder').value,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 160
+        lineNumber: 162
+      },
+      __self: this
+    }), document.getElementById('cropper_input_2').value && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      type: "text",
+      name: "cropper_input_2[]",
+      class: "cropper_input",
+      placeholder: document.getElementById('cropper_input_2_placeholder').value,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 169
+      },
+      __self: this
+    }), document.getElementById('cropper_input_3').value && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      type: "text",
+      name: "cropper_input_3[]",
+      class: "cropper_input",
+      placeholder: document.getElementById('cropper_input_3_placeholder').value,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 176
+      },
+      __self: this
+    }), document.getElementById('cropper_input_4').value && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      type: "text",
+      name: "cropper_input_4[]",
+      class: "cropper_input",
+      placeholder: document.getElementById('cropper_input_4_placeholder').value,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 183
+      },
+      __self: this
+    }), document.getElementById('cropper_input_5').value && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      type: "text",
+      name: "cropper_input_5[]",
+      class: "cropper_input",
+      placeholder: document.getElementById('cropper_input_5_placeholder').value,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 190
+      },
+      __self: this
+    }), document.getElementById('cropper_input_6').value && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      type: "text",
+      name: "cropper_input_6[]",
+      class: "cropper_input",
+      placeholder: document.getElementById('cropper_input_6_placeholder').value,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 197
       },
       __self: this
     }));
